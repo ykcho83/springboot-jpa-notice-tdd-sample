@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ykcho.base.notice.controller.NoticeControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-21T07:47:43" hostname="yoonkichoui-MacBookPro.local" time="0.048">
+  <properties/>
+  <testcase name="updateNoticeDTO()" classname="com.ykcho.base.notice.controller.NoticeControllerTest" time="0.038"/>
+  <testcase name="selectNoticeList()" classname="com.ykcho.base.notice.controller.NoticeControllerTest" time="0.005"/>
+  <testcase name="deleteNotice()" classname="com.ykcho.base.notice.controller.NoticeControllerTest" time="0.002"/>
+  <testcase name="insertNoticeDTO()" classname="com.ykcho.base.notice.controller.NoticeControllerTest" time="0.001"/>
+  <testcase name="selectNoticeDTO()" classname="com.ykcho.base.notice.controller.NoticeControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

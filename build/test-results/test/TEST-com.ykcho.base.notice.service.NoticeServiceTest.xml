@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ykcho.base.notice.service.NoticeServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-21T07:47:48" hostname="yoonkichoui-MacBookPro.local" time="0.048">
+  <properties/>
+  <testcase name="updateNoticeDTO()" classname="com.ykcho.base.notice.service.NoticeServiceTest" time="0.041"/>
+  <testcase name="selectNoticeList()" classname="com.ykcho.base.notice.service.NoticeServiceTest" time="0.001"/>
+  <testcase name="deleteNotice()" classname="com.ykcho.base.notice.service.NoticeServiceTest" time="0.001"/>
+  <testcase name="insertNotice()" classname="com.ykcho.base.notice.service.NoticeServiceTest" time="0.003"/>
+  <testcase name="selectNoticeDTO()" classname="com.ykcho.base.notice.service.NoticeServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

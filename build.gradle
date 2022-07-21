@@ -1,0 +1,46 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.1'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.bespin'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.projectlombok:lombok:1.18.20'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    /* SWAGGER */
+    implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+    /* JPA */
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    /* MYSQL CONNECTOR */
+    runtimeOnly 'mysql:mysql-connector-java'
+    /* JAVAX VALIDATION */
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    /* Model Mapper DTO <-> ENTITY */
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.0.0'
+
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
